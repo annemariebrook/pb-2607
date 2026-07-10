@@ -175,6 +175,26 @@
     align-items: center;
     justify-content: center;
   }
+  .bio {
+    display: flex;
+    gap: 1.4rem;
+    align-items: flex-start;
+    margin: 2rem 0;
+  }
+  .bio img {
+    flex: 0 0 auto;
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+  }
+  .bio .bio-text { margin: 0; }
+  .bio .bio-text p { margin: 0; }
+  @media (max-width: 32rem) {
+    .bio { flex-direction: column; gap: 0.9rem; }
+    .bio img { width: 132px; height: 132px; }
+  }
   footer { max-width: 41rem; margin: 4rem auto 0; padding: 0 1.5rem 5rem; }
   footer .inner {
     border-top: 2px solid var(--pounamu);
@@ -217,7 +237,7 @@
   <p>People arrive with different, largely unstated theories of how the world works. If those worldviews stay implicit, the same language can mean quite different things, and diverging positions can seem nonsensical. If they are made visible, the group gains two things: the ability to see a colleague's position as coherent within their worldview, even while disagreeing with it; and the possibility of everyone developing a more expansive cognitive architecture.</p>
 
   <div class="whanaunga">
-    <p>If this foundation is built well, it should result in a brief that both a centre-left and a centre-right government could pick up and recognise their own tradition inside. The relational work is the source of the Colab's credibility.</p>
+    <p>If this foundation is built well, it should result in a brief that both a centre-left and a centre-right government could pick up and recognise their own tradition inside — because the people who wrote it did the work of disagreeing honestly, holding the tensions while deeply listening to each other, and staying in relationship. The relational work is the source of the Colab's credibility.</p>
   </div>
 
   <h2>What we are asking</h2>
@@ -229,6 +249,20 @@
     <li>Who are two people whose early feedback would strengthen this concept? I'm looking for people with relevant expertise or networks who would engage critically and constructively.</li>
     <li>Which funders — philanthropic or otherwise — can you imagine backing something like this?</li>
   </ol>
+
+  <h2>Who we are</h2>
+  <div class="bio">
+    <img src="anne-marie-bio-photo.jpg" alt="Anne-Marie Brook">
+    <div class="bio-text">
+      <p><strong>Anne-Marie Brook</strong> is an economist and entrepreneur with experience across the government, corporate, and civic sectors in Aotearoa. She was previously a senior economist at the OECD and in the New Zealand public sector, and co-founded the Human Rights Measurement Initiative (HRMI). She is an Edmund Hillary Fellow and a student of many things including AI and healing-centred systems change.</p>
+    </div>
+  </div>
+  <div class="bio">
+    <img src="rebecca-bio-photo.jpg" alt="Rebecca Sinclair">
+    <div class="bio-text">
+      <p><strong>Rebecca Sinclair</strong> is a facilitator, educator, and systems practitioner, and an Honorary Research Fellow at Toi Rauwhārangi, Massey University. Co-founder of The Pākehā Project, she has spent 27 years working at the intersection of relational facilitation, embodied practice, and restorative systems change — with a particular focus on surfacing the unstated worldviews and assumptions people bring into a room.</p>
+    </div>
+  </div>
 </section>
 
 <footer>
